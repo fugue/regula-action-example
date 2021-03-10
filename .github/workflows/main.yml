@@ -8,7 +8,7 @@ jobs:
     - uses: actions/checkout@master
     - name: Regula
       id: regula
-      uses: fugue/regula-action@faff64fd6d0ab07f44d2c8dd4abc996b12f2718a
+      uses: fugue/regula-action@d647adcd97d1942340d65e979203092d3b6356f4
       with:
         input_path: infra_tf
         rego_paths: /opt/regula/rules example_custom_rule
