@@ -27,6 +27,3 @@ jobs:
       with:
         input_path: infra_cfn/cloudformation.yaml
         rego_paths: /opt/regula/rules
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
